@@ -33,16 +33,3 @@ Manually curated dataset of **60 labeled messages — 20 per class**.
 4. Interactive mode → `python predict.py` then type messages one by one
 
 ---
-
-## Sample Inputs and Outputs
-
-| Input Message | Category | Confidence |
-|---|---|---|
-| *"Your platform has been down for hours!"* | Complaint | 50.7% |
-| *"The new UI looks fantastic."* | Feedback | 42.9% |
-| *"What is the max users on the basic plan?"* | Inquiry | 37.8% |
-| *"Waiting three weeks for a refund, no response."* | Complaint | 53.3% |
-| *"Could you add dark mode to the mobile app?"* | Feedback | 40.8% |
-| *"Do you support Slack integration?"* | Inquiry | 52.0% |
-
-**Overall accuracy: 83.3%** (5-fold cross-validation)
